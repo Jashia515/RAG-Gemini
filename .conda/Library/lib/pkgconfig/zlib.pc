@@ -1,0 +1,13 @@
+prefix=e:/unt/spring_2024/info retrieval/project/.conda/Library
+exec_prefix=e:/unt/spring_2024/info retrieval/project/.conda/Library
+libdir=e:/unt/spring_2024/info retrieval/project/.conda/Library/lib
+sharedlibdir=e:/unt/spring_2024/info retrieval/project/.conda/Library/lib
+includedir=e:/unt/spring_2024/info retrieval/project/.conda/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
